@@ -1,6 +1,75 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+    background-color: #FFF4D8;
+}
 header{
-    background-image: url('images/imgDondeCoste1.jpg')
+    margin:0 auto;
+    background-image: url("../images/imgDondeCoste1.jpg");
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+    padding:0;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+header > p.headerMessage{
+    width:fit-content;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 5%;
+    border: 1px #000000 solid;
+    padding: 1%;
+    margin:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 1%;
+}
+
+nav{
+    margin: 0 auto;
+    background-color:#4175e4;
+    padding: 0.5%;
+    color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    height:fit-content;
+    font-size: 1.5em;
+}
+nav .dropBtn{
+    background-color: #4175e4;
+    text-align: center;
+
+}
+
+nav .dropBtn:active + .dropContent{
+    display:block;
+}
+nav .dropBtn:hover + .dropContent{
+    display: block;
+}
+
+nav .dropContent a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+nav .dropContent a:hover{
+    background-color: #F2D12A;
+}
+
+nav .dropContent{
+    display: none;
+}
+nav .dropContent:hover{
+    display: block;
+    width: 100%;
+    text-align: center;
 }
