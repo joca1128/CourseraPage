@@ -10,16 +10,17 @@ body{
 absolute para los miembros del header*/
 header{
     margin:0 auto;
-    background-image: url("../images/imgDondeCoste1.jpg");
+    background-image: url("../images/imgDondeCoste2.jpg");
     background-position: center;
     background-size: contain;
     width: 100%;
-    height: 200px;
+    height: 30vh;
     position: relative;
 }
 /*Estiliza el párrafo del header*/
 header > p.headerMessage{
     width:fit-content;
+    font-size: 1.2em;
     background-color: #ffffff;
     overflow: hidden;
     border-radius: 5%;
@@ -39,9 +40,9 @@ nav{
     padding: 0.5%;
     color: #ffffff;
     font-size: 1.5em;
-    position:absolute;    
-    top: 100%;
     width: 100%;
+    position:absolute;
+    top:100%;
 }
 /*las lineas en los menus*/
 hr.line{
@@ -51,13 +52,13 @@ hr.line{
     text-align: center;
 }*/
 /*Muestra el dropContent cuando se hacer click sobre el div .dropBtn*/
-nav .dropBtn:active + .dropContent{
+/*nav .dropBtn:active + .dropContent{
     display:block;
-}
+}*/
 /*Muestra el dropContent cuando se hacer el hover sobre el div .dropBtn*/
-nav .dropBtn:hover + .dropContent{
+/*nav .dropBtn:hover + .dropContent{
     display: block;
-}
+}*/
 /*Estiliza los componentes del menú*/
 nav a{
     display: block;
