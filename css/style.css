@@ -1,11 +1,13 @@
+/*Que todas las cajas de la página tengan border-box*/
 *{
     box-sizing: border-box;
 }
-
+/*colorea el background*/
 body{
     background-color: #FFF4D8;
 }
-/**/
+/*Coloca el background del header y coloca su position en relative, para poder usar la posición
+absolute para los miembros del header*/
 header{
     margin:0 auto;
     background-image: url("../images/imgDondeCoste1.jpg");
@@ -36,12 +38,10 @@ nav{
     background-color:#4175e4;
     padding: 0.5%;
     color: #ffffff;
-    width: 100%;
-    overflow: hidden;
-    height:fit-content;
     font-size: 1.5em;
-    position:absolute;
+    position:absolute;    
     top: 100%;
+    width: 100%;
 }
 /*las lineas en los menus*/
 hr.line{
@@ -78,16 +78,36 @@ nav .dropContent:hover{
     text-align: center;
 }
 
-figure{
-    margin-top: 2%;
+div.option{
+    margin-top: 5%;
     text-align: center;
+    background-color: #660101;
+    color: #ffffff;
+    position: relative;
 }
 
-figure img, figure figcaption{
+div.option img{
+    width: 100%;
+}
+
+div a iframe{
     width: 100%;
     border: 1px #000000 solid;
     margin: 0;
     padding: 0;
+}
+
+div.option span{
+    font-size: 1.8em;
+}
+
+footer p{
+    border: 1px #000000 solid;
+    background-color: #660101;
+    padding: 2%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
 }
 
 @media screen and (min-width:760px){
