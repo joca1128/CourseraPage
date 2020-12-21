@@ -20,7 +20,7 @@ header{
 /*Estiliza el párrafo del header*/
 header > p.headerMessage{
     width:fit-content;
-    font-size: 1.2em;
+    font-size: 3vh;
     background-color: #ffffff;
     overflow: hidden;
     border-radius: 5%;
@@ -134,7 +134,9 @@ div.foodBox .description, div.foodBox .foodImage{
     font-size: 1.4em;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+div.foodBox .description{
+    padding: 10%;
+}
 @media screen and (min-width:760px){
     
 }
