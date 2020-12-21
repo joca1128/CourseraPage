@@ -69,6 +69,10 @@ nav .dropContent a:hover{
     background-color: #F2D12A;
 }
 
+#active{
+    background-color: #F2D12A;
+}
+
 nav .dropContent{
     display: none;
 }
@@ -108,6 +112,27 @@ footer p{
     color: #ffffff;
     text-align: center;
     font-size: 2em;
+}
+
+div.foodBox{
+    margin-top: 2%;
+    display: flex;
+    border: 2px #000000 solid;
+    border-radius: 1%;
+    padding: 1% 0% 1% 0%;
+}
+
+div.foodBox .description, div.foodBox .foodImage{
+    width: 45%;
+    margin: 0;
+    border: 2px #000000 solid;
+    border-radius: 2%;
+    margin: 1% auto;
+    text-align: center;
+    background-color:#660101;
+    color: #ffffff;
+    font-size: 1.4em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @media screen and (min-width:760px){
