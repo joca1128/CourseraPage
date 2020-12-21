@@ -14,7 +14,7 @@ header{
     background-position: center;
     background-size: contain;
     width: 100%;
-    height: 30vh;
+    height: 20vh;
     position: relative;
 }
 /*Estiliza el párrafo del header*/
@@ -30,7 +30,7 @@ header > p.headerMessage{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 1%;
     position: absolute;
-    top:50%;
+    top:40%;
     left: 3%;
 }
 /*centra el nav, le da color, padding*/
@@ -41,8 +41,6 @@ nav{
     color: #ffffff;
     width: 100%;
     font-size: 2em;
-    position:absolute;
-    top:100%;
 }
 /*las lineas en los menus*/
 hr.line{
@@ -81,7 +79,7 @@ nav .dropContent:hover{
 }
 
 div.option{
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
     background-color: #660101;
     color: #ffffff;
