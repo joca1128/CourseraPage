@@ -137,7 +137,7 @@ div.foodBox .description, div.foodBox .foodImage{
 div.foodBox .description{
     padding: 10%;
 }
-@media screen and (min-width:600px){
+@media screen and (min-width:500px){
     .container{
         display: flex;
         flex-direction: row;
