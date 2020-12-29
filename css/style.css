@@ -20,7 +20,7 @@ header{
 /*Estiliza el párrafo del header*/
 header > p.headerMessage{
     width:fit-content;
-    font-size: 1em;
+    font-size: 1.5em;
     background-color: #ffffff;
     overflow: hidden;
     border-radius: 5%;
@@ -137,7 +137,7 @@ div.foodBox .description, div.foodBox .foodImage{
 div.foodBox .description{
     padding: 10%;
 }
-@media screen and (min-width:640px){
+@media screen and (min-width:600px){
     .container{
         display: flex;
         flex-direction: row;
@@ -187,5 +187,8 @@ div.foodBox .description{
     nav .dropContent:hover{
         display: inline;
         text-align: center;
+    }
+    header > p.headerMessage{
+        font-size: 1.2em;
     }
 }
