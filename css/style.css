@@ -20,7 +20,7 @@ header{
 /*Estiliza el párrafo del header*/
 header > p.headerMessage{
     width:fit-content;
-    font-size: 3vh;
+    font-size: 1em;
     background-color: #ffffff;
     overflow: hidden;
     border-radius: 5%;
